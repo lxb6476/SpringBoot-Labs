@@ -1,0 +1,16 @@
+spring:
+  flyway:
+    locations: classpath:db/migration
+    enabled: true
+    encoding: UTF-8
+    baseline-on-migrate: true
+    table: tb_flyway_server
+    placeholders:
+      flyway-table: ${spring.flyway.table}
+    clean-disabled: true
+
+  datasource:
+    url: jdbc:mysql://116.198.244.199:3306/db_spring_lab
+    username: root
+    password: mysql910920
+

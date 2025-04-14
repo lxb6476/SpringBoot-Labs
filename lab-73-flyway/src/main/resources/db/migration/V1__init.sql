@@ -1,0 +1,3 @@
+-- Init file
+--This file will not be executed
+--because baseline-on-migrate: true in application.yml
